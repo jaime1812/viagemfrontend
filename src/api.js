@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://viagem-backend.herokuapp.com/viagem'
+    baseURL: 'https://viagem-backend.herokuapp.com'
 });
 
-export default api; 
+export default api;

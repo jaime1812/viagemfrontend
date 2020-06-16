@@ -42,7 +42,7 @@ function App() {
     function addViagem() { 
         const city = cidade;
         const country = pais;
-        api.post('/musicas', { cidade: city, pais: country}).then((response) => {
+        api.post('/viagem', { cidade: city, pais: country}).then((response) => {
         setCidade('');
         setPais('');
         setOpen(false);
